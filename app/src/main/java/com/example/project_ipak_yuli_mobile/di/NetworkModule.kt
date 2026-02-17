@@ -17,7 +17,7 @@ object NetworkModule {
     @Singleton
     fun provideIpakYuliRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://192.168.2.253:3000/")
+            .baseUrl("http://192.168.3.123:3000/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
